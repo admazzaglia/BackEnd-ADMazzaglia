@@ -1,10 +1,5 @@
-FROM amazoncorretto:19
+FROM amazoncorretto:19-alpin-jdk
 
+COPY target/mad-0.0.1-SNAPSHOT.jar app-mad-0.0.1.jar
 
-MAINTAINER tunombre_o_alias
-
-
-COPY target/mad-0.0.1-SNAPSHOT.jar mad-0.0.1-SNAPSHOT.jar
-
-
-ENTRYPOINT ["java","-jar","/mad-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/app-mad-0.0.1.jar"]
