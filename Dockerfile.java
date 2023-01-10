@@ -1,4 +1,4 @@
-FROM amazoncorretto:19-alpin-jdk
+FROM amazoncorretto:19
 
 COPY target/mad-0.0.1-SNAPSHOT.jar app-mad-0.0.1.jar
 
