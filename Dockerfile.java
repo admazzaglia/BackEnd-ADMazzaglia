@@ -1,4 +1,4 @@
-FROM amazoncorretto:8
+FROM amazoncorretto:19
 
 MAINTAINER portfolio.mad
 
