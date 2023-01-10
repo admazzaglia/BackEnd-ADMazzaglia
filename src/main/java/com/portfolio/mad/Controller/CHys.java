@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/skill")
-@CrossOrigin(origins ={"https://madfrontend-d13f8.web.app","http://localhost:4200"})
+@CrossOrigin(origins ={"https://portofilo-mad-backend.onrender.com","http://localhost:4200"})
 //@CrossOrigin(origins = "http://localhost:4200")
 
 
