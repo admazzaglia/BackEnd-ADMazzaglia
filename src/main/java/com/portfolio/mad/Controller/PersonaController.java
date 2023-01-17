@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+@SuppressWarnings("unchecked")
 @RestController
 @RequestMapping("/personas")
 @CrossOrigin(origins = {"https://madfrontend-d13f8.web.app","http://localhost:4200"})
